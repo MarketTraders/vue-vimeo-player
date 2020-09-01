@@ -87,6 +87,9 @@ export default {
     unmute (volume = 0.5) {
       return this.player.setVolume(volume)
     },
+    setCurrentTime (time) {
+      return this.player.setCurrentTime(time)
+    },
     setEvents () {
       const vm = this
 
